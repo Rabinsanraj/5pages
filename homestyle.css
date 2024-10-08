@@ -1,0 +1,100 @@
+/*--------------Homepage css--------------------*/
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(vecteezy_wooden-plank-or-board-in-the-lumber-mill-industry-stack-of_31326822.JPG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+nav {
+    background-color: rgba(131, 71, 10, 0.795);
+    position:fixed;
+    top: 0px;
+    width: 100%;
+    padding: auto;
+}
+
+#logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0.5px;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: peru;
+
+}
+
+a.about:hover{
+    background-color: rgb(46, 24, 1);
+    transform: .5s;
+    border-radius: 10px;
+  padding: 10px;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    border: 2px solid white;
+}
+
+h2 {
+    padding-top: 170px;
+    padding-bottom: 0px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+form {
+    align-items: center;
+    padding-left: 500px;
+    padding-top: 10px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+a.nextp {
+    color: red;
+    background-color: peru;
+    border-radius: 10px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-top: 5px;
+}
+
+a.nextp:hover {
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    background-color: rgb(46, 24, 1);
+    border: 2px solid white;
+
+}
